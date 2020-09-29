@@ -1,0 +1,24 @@
+{
+    "project": {
+        "name": "",
+        "subtitle": "",
+        "about": "",
+        "givenBy": ""
+    },
+    "reports": [
+        {
+            "day": "",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "jobs": [
+                "a",
+                "b"
+            ],
+            "todo": [
+                "a",
+                "b"
+            ]
+        }
+    ]
+}
