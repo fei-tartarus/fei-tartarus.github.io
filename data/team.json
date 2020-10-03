@@ -3,87 +3,66 @@
         {
             "photo": "/assets/img/tomas.jpg",
             "name": "Bc. Tomáš Hodor",
-            "age": 24,
             "study": "FEI STU I-API MSUS",
-            "studyYear": 1,
             "technologies": [
                 "java",
                 "javascript",
                 "python"
             ],
-            "about": "",
             "job": "FRINX s.r.o. Software Engineer"
         },
         {
             "photo": "/assets/img/vasyl.jpg",
             "name": "Bc. Vasyľ Klevľanyk",
-            "age": 22,
             "study": "FEI STU I-API MSUS",
-            "studyYear": 1,
             "technologies": [
                 "java", "angularjs", "python"
             ],
-            "about": "",
             "job": "FRINX s.r.o. Java Junior Developer"
         },
         {
             "photo": "/assets/img/lukas.jpg",
             "name": "Bc. Lukáš Odler",
-            "age": 23,
             "study": "FEI STU I-API MSUS",
-            "studyYear": 1,
             "technologies": [
                 "html5", "css3", "javascript", "php", "sass", "vuejs", "jquery", "laravel"
             ],
-            "about": "",
             "job": "Dataid s.r.o. Fullstack web developer"
         },
         {
             "photo": "/assets/img/matus.jpg",
             "name": "Bc. Matúš Olejník",
-            "age": 26,
             "study": "FEI STU I-API MSUS",
-            "studyYear": 1,
             "technologies": [
                 "java", "html5", "css3", "javascript", "bootstrap"
             ],
-            "about": "",
             "job": "Finamis s.r.o. Java programmer"
         },
         {
-            "photo": "/assets/img/unknown.jpg",
+            "photo": "/assets/img/frantisek.jpg",
             "name": "Bc. František Pastorek",
-            "age": 25,
             "study": "FEI STU I-API MSUS",
-            "studyYear": 1,
             "technologies": [
                 "dot-net", "python", "javascript", "csharp"
             ],
-            "about": "",
             "job": "Medior/Senior programmer & analytist"
         },
         {
             "photo": "/assets/img/ondrej.jpg",
             "name": "Bc. Ondrej Straka",
-            "age": 24,
             "study": "FEI STU I-API MSUS",
-            "studyYear": 1,
             "technologies": [
                 "java", "javascript", "typescript", "html5", "css3", "php", "c", "python", "nodejs"
             ],
-            "about": "",
             "job": "Java developer & Junior javascript/TS developer"
         },
         {
             "photo": "/assets/img/martin.jpg",
             "name": "Bc. Martin Števo",
-            "age": 24,
             "study": "FEI STU I-API MSUS",
-            "studyYear": 1,
             "technologies": [
                 "java", "html5", "css3", "javascript", "php", "jquery","android"
             ],
-            "about": "",
             "job": null
         }
     ]
