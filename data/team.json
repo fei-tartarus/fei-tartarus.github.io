@@ -8,7 +8,7 @@
             "studyYear": 1,
             "technologies": [
                 "java",
-                "js",
+                "javascript",
                 "python"
             ],
             "about": "",
@@ -21,7 +21,7 @@
             "study": "FEI STU I-API MSUS",
             "studyYear": 1,
             "technologies": [
-                "java", "angular", "python"
+                "java", "angularjs", "python"
             ],
             "about": "",
             "job": "FRINX s.r.o. Java Junior Developer"
@@ -33,7 +33,7 @@
             "study": "FEI STU I-API MSUS",
             "studyYear": 1,
             "technologies": [
-                "html", "css", "js", "php", "scss", "vue", "jquery", "laravel"
+                "html5", "css3", "javascript", "php", "sass", "vuejs", "jquery", "laravel"
             ],
             "about": "",
             "job": "Dataid s.r.o. Fullstack web developer"
@@ -45,7 +45,7 @@
             "study": "FEI STU I-API MSUS",
             "studyYear": 1,
             "technologies": [
-                "java", "html", "css", "js", "springboot", "bootstrap"
+                "java", "html5", "css3", "javascript", "bootstrap"
             ],
             "about": "",
             "job": "Finamis s.r.o. Java programmer"
@@ -57,7 +57,7 @@
             "study": "FEI STU I-API MSUS",
             "studyYear": 1,
             "technologies": [
-                "aspnet", "python", "js", "csharp", "blender"
+                "dot-net", "python", "javascript", "csharp"
             ],
             "about": "",
             "job": "Medior/Senior programmer & analytist"
@@ -69,10 +69,10 @@
             "study": "FEI STU I-API MSUS",
             "studyYear": 1,
             "technologies": [
-                "java", "js", "ts", "html", "css", "php", "c", "python", "nestjs"
+                "java", "javascript", "typescript", "html5", "css3", "php", "c", "python", "nodejs"
             ],
             "about": "",
-            "job": "Java developer & Junior JS/TS developer"
+            "job": "Java developer & Junior javascript/TS developer"
         },
         {
             "photo": "/assets/img/martin.jpg",
@@ -81,7 +81,7 @@
             "study": "FEI STU I-API MSUS",
             "studyYear": 1,
             "technologies": [
-                "java", "html", "css", "js", "php", "jquery","android"
+                "java", "html5", "css3", "javascript", "php", "jquery","android"
             ],
             "about": "",
             "job": null
