@@ -1,0 +1,69 @@
+{
+    "people": [
+        {
+            "photo": "/assets/img/tomas.jpg",
+            "name": "Bc. Tomáš Hodor",
+            "study": "FEI STU I-API MSUS",
+            "technologies": [
+                "java",
+                "javascript",
+                "python"
+            ],
+            "job": "FRINX s.r.o. Software Engineer"
+        },
+        {
+            "photo": "/assets/img/vasyl.jpg",
+            "name": "Bc. Vasyľ Klevľanyk",
+            "study": "FEI STU I-API MSUS",
+            "technologies": [
+                "java", "angularjs", "python"
+            ],
+            "job": "FRINX s.r.o. Java Junior Developer"
+        },
+        {
+            "photo": "/assets/img/lukas.jpg",
+            "name": "Bc. Lukáš Odler",
+            "study": "FEI STU I-API MSUS",
+            "technologies": [
+                "html5", "css3", "javascript", "php", "sass", "vuejs", "jquery", "laravel"
+            ],
+            "job": "Dataid s.r.o. Fullstack web developer"
+        },
+        {
+            "photo": "/assets/img/matus.jpg",
+            "name": "Bc. Matúš Olejník",
+            "study": "FEI STU I-API MSUS",
+            "technologies": [
+                "java", "html5", "css3", "javascript", "bootstrap"
+            ],
+            "job": "Finamis s.r.o. Java programmer"
+        },
+        {
+            "photo": "/assets/img/frantisek.jpg",
+            "name": "Bc. František Pastorek",
+            "study": "FEI STU I-API MSUS",
+            "technologies": [
+                "dot-net", "python", "javascript", "csharp"
+            ],
+            "job": "Medior/Senior programmer & analytist"
+        },
+        {
+            "photo": "/assets/img/ondrej.jpg",
+            "name": "Bc. Ondrej Straka",
+            "study": "FEI STU I-API MSUS",
+            "technologies": [
+                "java", "javascript", "typescript", "html5", "css3", "php", "c", "python", "nodejs"
+            ],
+            "job": "Java developer & Junior javascript/TS developer"
+        },
+        {
+            "photo": "/assets/img/martin.jpg",
+            "name": "Bc. Martin Števo",
+            "study": "FEI STU I-API MSUS",
+            "technologies": [
+                "java", "html5", "css3", "javascript", "php", "jquery","android"
+            ],
+            "job": null
+        }
+    ]
+}
