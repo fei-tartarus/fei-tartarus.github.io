@@ -1,5 +1,4 @@
-import $ from 'jquery';
 import axios from 'axios';
+import './pace';
 
-window.$ = window.jQuery = $;
 window.axios = axios;

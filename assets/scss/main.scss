@@ -7,6 +7,18 @@
 // Bootstrap
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 
+//Pace loading bar
+@import './pace.scss';
+
+@font-face {
+    font-family: 'tartarus';
+    src: url('../font/distortion.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('../font/montserrat.otf');
+}
+
 body{
     width: 100%;
     min-height: 100vh;

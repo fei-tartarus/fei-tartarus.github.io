@@ -1,23 +1,20 @@
 <template>
-    <div id="team" class="d-flex justify-content-center align-items-center">
-        <div class="teamGrid justify-content-center container row m-5">
-            <person v-for="member in people" :key="people.indexOf(member)" v-bind:person=member></person>
+    <div id="team" class="d-flex justify-content-center align-items-start align-items-md-center py-5">
+        <div class="container">
+            <div class="justify-content-center row m-5">
+                <person v-for="member in people" :key="people.indexOf(member)" v-bind:person=member></person>
+            </div>
         </div>
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
     #team{
-        position: fixed;
+        position: absolute;
         top: 0;
-        bottom: 0;
         left: 0;
-        right: 0;
-
-        .teamGrid{
-            max-height: 80vh;
-            overflow: hidden;
-        }
+        width: 100%;
+        min-height: 100vh;
     }
 </style>
 
