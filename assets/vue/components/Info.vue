@@ -8,7 +8,7 @@
                 </span>
             </div>
             <div class="col-12 col-md-4 p-0 order-1 order-md-2 givenBy">
-                <img class="givenByImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png" alt="">
+                <img class="givenByImg" v-bind:src="project.photo" alt="">
                 <span class="givenByName py-2 px-3">
                     {{project.givenBy}}
                 </span>
