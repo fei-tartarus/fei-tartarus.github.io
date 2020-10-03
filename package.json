@@ -1,0 +1,35 @@
+{
+  "name": "fei-tartarus.github.io",
+  "version": "1.0.0",
+  "description": "TP1 project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fei-tartarus/fei-tartarus.github.io.git"
+  },
+  "author": "FEI Tartarus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fei-tartarus/fei-tartarus.github.io/issues"
+  },
+  "homepage": "https://github.com/fei-tartarus/fei-tartarus.github.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.0",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "devicon": "^2.2.0",
+    "jquery": "^3.5.1",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.4.5"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.11",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
