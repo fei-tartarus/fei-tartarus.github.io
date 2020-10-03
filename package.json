@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx parcel ./index.html",
     "predeploy": "rm -rf dist && parcel build index.html",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -b master"
   },
   "repository": {
     "type": "git",
