@@ -7,7 +7,6 @@ import App from '../vue/App.vue';
 
 const router = new VueRouter({
 	routes,
-	mode: 'history',
 	linkExactActiveClass: 'active',
 });
 

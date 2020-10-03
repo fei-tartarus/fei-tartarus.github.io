@@ -1,6 +1,6 @@
 <template>
     <div class="person col-12 col-md-4 col-lg-3 p-0 m-0">
-        <img v-bind:src="'https://fei-tartarus.github.io/'+person.photo" alt="" class="p-0 m-0">
+        <img v-bind:src="'https://fei-tartarus.github.io'+person.photo" alt="" class="p-0 m-0">
         <div class="cover d-flex flex-column justify-content-center align-items-center p-4">
             <h5>{{person.name}}</h5>
             <div class="px-3 d-flex justify-content-center flex-wrap">

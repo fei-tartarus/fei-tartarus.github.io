@@ -4,9 +4,9 @@
   "description": "TP1 project",
   "main": "index.js",
   "scripts": {
-    "start": "npx parcel ./index.html",
-    "predeploy": "rm -rf dist && parcel build index.html",
-    "deploy": "gh-pages -d dist -b master"
+    "start": "parcel ./index.html ./404.html",
+    "predeploy": "rm -rf dist && parcel build index.html 404.html",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
