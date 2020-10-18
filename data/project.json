@@ -7,6 +7,21 @@
     },
     "reports": [
         {
+          "day": "18.10.2020",
+          "title": "3# Report",
+          "subtitle": "",
+          "text": "Tento týždeň sme si s vedúcim tímu prešli zdrojový kód Angular aplikácie cez video hovor. Následne nám bol poskytnutý aby sme si ho mohli pozrieť všetci aj individuálne a potom si spoločne prejsť prípadné nejasnosti. \n\nNa ďalší týždeň po analyzovaní kódu budeme kontaktovať vedúceho tímu s prípadnými otázkami a následnom rozdelení práce kto bude na čom pracovať. Zároveň budeme hlbšie riešiť aj otázky ohľadom serverovej časti spomenuté v reporte číslo 2.\n",
+          "jobs": [
+            "Analýza produkčnej verzie modelera",
+            "Analýza Angular kódu aplikácie",
+            "Štúdium Spring Boot frameworku",
+            "Analýza synchronizácie modelu"
+          ],
+          "todo": [
+            "Budúci týždeň budeme riešiť rozdelenie úloh po prezretí Angular zdrojového kódu, prípadne iné otázky v prípade nejasností."
+          ]
+        },
+        {
             "day": "11.10.2020",
             "title": "2# Report",
             "subtitle": "",
