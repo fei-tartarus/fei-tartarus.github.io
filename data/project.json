@@ -7,6 +7,21 @@
     },
     "reports": [
         {
+          "day": "25.10.2020",
+          "title": "4# report",
+          "subtitle": "",
+          "text": "Tento týždeň sme sa individuálne zoznamovali s Angular projektom. Vytvorili sme si GitHub repozitár kde sme uložili zdrojový kód. Všetci sme si nastavili GitHub a každý si aplikáciu spustil aj u seba na PC.\n",
+          "jobs": [
+            "Spojazdnenie klient časti na našich PC",
+            "Analýza Angular kódu aplikácie",
+            "Otázky ohľadom backendu",
+            "Analýza synchronizácie modelu"
+          ],
+          "todo": [
+            "Na ďalší týždeň plánujeme pokračovať v práci s touto Angular časťou a zároveň založiť časť backendu. Rovnako si začneme rozdeľovať konkrétne úlohy, spísané neskôr, aby sme si všetci vyskúšali prácu s frontedom aj v konkrétnej situácii.\n"
+          ]
+        },
+      {
           "day": "18.10.2020",
           "title": "3# Report",
           "subtitle": "",
