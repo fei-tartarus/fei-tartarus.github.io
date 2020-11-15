@@ -7,6 +7,42 @@
     },
     "reports": [
         {
+          "day": "15.11.2020",
+          "title": "7# report",
+          "subtitle": "",
+          "text": "Tento týždeň sme založili projekt pre serverovú časť tejto aplikácie. Ide teda o časť ktorá bude spracovávať jednotlivé requesty a starať sa o synchronizáciu modelu medzi užívateľmi. Server bude zrejme bežať na hostingu od Heroku, ktorý ponúka bezplatný chod Java web aplikácií, konkrétne my využívame Java framework Spring Boot. Hosting tiež ponúka bezplatnú databázu, ktorú zrejme využijeme na uchovávanie informácií o jednotlivých miestnostiach do ktorých sa budú užívateľa pripájať aby tak mohli nerušene pracovať na svojej časti projektu. Alternatívou k databáze od Heroku je bezplatná verzia Firebase databázy.\n\nNajprv sme sa teda pre testovacie účely snažili spojazniť jednoduchú chat aplikáciu ktorá na strane servera využíva JavaScript, konkrétne Stomp.js a SockJS. Aplikáciu sa nám podarilo s menšími chybami, ktoré budeme analyzovať a opravovať, spustiť. Ide však len o lokálnu verziu aplikácie a preto nás ešte čaká deploynúť kód na spomínané Heroku a vyskúšať funkčnosť aj v tomto prípade. Následne však plánujeme ešte implementovať aj funkcionalitu vytvárania miestností do tohto demo projektu, čo však v zápätí využijeme aj v hlavnom projekte pre synchronizáciu petriho sietí.\n\nZároveň však riešime aj problémy z minulého týždňa s určovaním častí kódu ktoré majú byť nejakým spôsobom upravené v hlavnom modeli na ktorom pracuje viacero užívateľov naraz.\n",
+          "jobs": [
+            "Tvorba demo projektu pre posielanie správ pomocou websocketov"
+          ],
+          "todo": [
+            "Na ďalší týždeň plánujeme sfunkčniť serverovú časť minimálne z pohľadu jednoduchej chatovacej aplikácie s možnosťou vytvárania miestností a pozývania kolegov do nej. \n"
+          ]
+        },
+      {
+          "day": "8.11.2020",
+          "title": "6# report",
+          "subtitle": "",
+          "text": "Tento týždeň sme opäť veľa nestíhali, ale riešili sme synchronizáciu jednotlivých úkonov pri modelovaní v klientskej časti aplikácie. Vyskytli sa problémy ohľadom toho, podľa čoho pri prijatí XML na serverovej časti, rozlišovať ktorá časť modelu bola aktuálne upravená a ktorá by mala zostať nezmenená. Napr. ak by niekto upravoval action v Transition a niekto iný by upravoval na rovnakom Transition napr. formulár tak ako by sa po prijatí na serveri odlíšilo či sa má zmeniť len action a formuláre nie alebo naopak. Ak by sa posielalo celé XML nedal by sa tento problém veľmi riešiť a preto momentálne ideme cestou posielania častí XML kódu. Zároveň aj ak by sa posielali len časti tak by takýto problém mohol nastať a preto zrejme zavedieme funkcionalitu, že ak niekto upravuje väčší objekt ako napr. Transition tak pre ostatných bude jeho editácia zakázaná až dokým nedokončí svoje veci prvý ktorý začal upravovať. Je to určité obmedzenie tímovej práce na jednom modeli, ale zároveň paralelná práca na iných častiach modelu zostane zachovaná.\n",
+          "jobs": [
+            "Riešenie problému synchronizácie modelu na strane servera"
+          ],
+          "todo": [
+            "Na ďalší týždeň doriešime zistené problémy a začneme s implementáciou serverovej časti aby sme mohli synchronizáciu čo najskôr testovať. \n"
+          ]
+        },
+      {
+          "day": "1.11.2020",
+          "title": "5# report",
+          "subtitle": "",
+          "text": "Tento týždeň sme oveľa nepokročili nakoľko oboznamovanie sa s kódom  je zložitejšie ako sme predpokladali a bude teda teda potrebná podrobnejšia analýza. Navyše sme mali zápočet a náročné zadania z iných predmetov. \n",
+          "jobs": [
+            "Podrobnejšia anayza Angular kódu"
+          ],
+          "todo": [
+            "Na ďalší týždeň sa preto naše plány oproti tomuto týždňu nemenia a teda plánujeme pokračovať v práci s touto Angular časťou a zároveň riešiť základné otázky ohľadom backendu. \n"
+          ]
+        },
+      {
           "day": "25.10.2020",
           "title": "4# report",
           "subtitle": "",
