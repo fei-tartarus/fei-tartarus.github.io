@@ -7,6 +7,18 @@
     },
     "reports": [
         {
+          "day": "22.11.2020",
+          "title": "8# report",
+          "subtitle": "",
+          "text": "Tento týždeň sme mali náročný zápočet z Logiky a odovzdať zadanie z predmetu SUNS, takže progres na tomto projekte sa výrazne nezmenil. Podarilo sa nám však implementovať funkcionalitu komunikovania pomocou web socketov v tzv. miestnostiach vo vedľajšom demo projekte. Toto plánujeme využiť aj v ďalších častiach hlavného projektu nakoľko je nevyhnutné aby ak bude nejaký tím pracovať spoločne na jednom projekte tak aby boli oddelený od iných užívateľov ktorí budú tiež pracovať oddelene v inej miestnosti na svojich projektoch.\n",
+          "jobs": [
+            "Implementácia miestností v demo projekte"
+          ],
+          "todo": [
+            "V ďalšej časti tohto projektu preto preto plánujeme implementovať Angular knižnice pre prácu s websocketami a prepojiť klientskú časť so serverom a následne prenášať základné dáta modelu a síce celé objekty Transition, Place a Arc a až následne po tomto budeme riešiť problémy zo skorších stretnutí.\n"
+          ]
+        },
+      {
           "day": "15.11.2020",
           "title": "7# report",
           "subtitle": "",
