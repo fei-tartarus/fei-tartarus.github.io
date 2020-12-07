@@ -1,114 +1,139 @@
 {
-    "project": {
-        "name": "Rozšírenie modelera procesných modelov o možnosť kolaborácie",
-        "about": "Cieľom tímového projektu je rozšíriť modeler procesných aplikácií o technológiu Websockets tak, aby mohlo viacero používateľov v jednej chvíli spolupracovať na modelovaní konkrétneho procesného modelu. Naviac treba navrhnúť spôsob, akým riešiť konflikty v rámci navrhovania formulárov v sekcií generátora formulárov, a rozšíriť ho o ttechnológiu Websokets tak, aby tak isto mohlo viacero používateľov v jednej chvíli spolupracovať na vytváraní jedného kontneho formuláru.",
-        "givenBy": "Ing. Tomáš Kováčik",
-        "photo": "/assets/img/kovacik.jpg"
+  "project": {
+    "name": "Rozšírenie modelera procesných modelov o možnosť kolaborácie",
+    "about": "Cieľom tímového projektu je rozšíriť modeler procesných aplikácií o technológiu Websockets tak, aby mohlo viacero používateľov v jednej chvíli spolupracovať na modelovaní konkrétneho procesného modelu. Naviac treba navrhnúť spôsob, akým riešiť konflikty v rámci navrhovania formulárov v sekcií generátora formulárov, a rozšíriť ho o ttechnológiu Websokets tak, aby tak isto mohlo viacero používateľov v jednej chvíli spolupracovať na vytváraní jedného kontneho formuláru.",
+    "givenBy": "Ing. Tomáš Kováčik",
+    "photo": "/assets/img/kovacik.jpg"
+  },
+  "reports": [
+    {
+      "day": "06.12.2020",
+      "title": "10# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme realizovali dohodnutú konzultáciu s vedúcim práce. Oboznámili sme ho s aktuálnym stavom vyplývajúcim zo zápisnice tímu. Taktiež sme riešili najdôležitejšie otázky z oblasti problematiky najmä ohľadom spôsobu synchronizácie jednotlivých častí aplikácie, ktoré sú popísané aj v skorších častiach reportu. Rovnako sme sa dohodli na ďalšom postupe práce a na ďalšej konzultácii začiatkom nového roka, prípadne po dohode aj hocikedy skorej.\n",
+      "jobs": [
+        "Konzultácia s vedúcim tímu",
+        "Pokračovanie v dohodnutých veciach"
+      ],
+      "todo": [
+        "Na ďalší týždeň sme si toho veľa neplánovali nakoľko máme deadliny z iných predmetov, čo sme aj reportovali vedúcemu práce, ktorý to chápe a nemá s tým problém. Plánujeme však analyzovať použitie websocketov v službách od Googlu ako je Google Docs, Sheets a podobne, prípadne od iných dobre fungujúcich aplikácií aby sme tieto poznatky mohli použiť aj v našej práci. Rovnako nám vedúci práce poskytne analýzu minulých prác ktoré sa pokúšali implementovať websockety do skorších verzii aplikácie PetriFlow.\n"
+      ]
     },
-    "reports": [
-        {
-          "day": "22.11.2020",
-          "title": "8# report",
-          "subtitle": "",
-          "text": "Tento týždeň sme mali náročný zápočet z Logiky a odovzdať zadanie z predmetu SUNS, takže progres na tomto projekte sa výrazne nezmenil. Podarilo sa nám však implementovať funkcionalitu komunikovania pomocou web socketov v tzv. miestnostiach vo vedľajšom demo projekte. Toto plánujeme využiť aj v ďalších častiach hlavného projektu nakoľko je nevyhnutné aby ak bude nejaký tím pracovať spoločne na jednom projekte tak aby boli oddelený od iných užívateľov ktorí budú tiež pracovať oddelene v inej miestnosti na svojich projektoch.\n",
-          "jobs": [
-            "Implementácia miestností v demo projekte"
-          ],
-          "todo": [
-            "V ďalšej časti tohto projektu preto preto plánujeme implementovať Angular knižnice pre prácu s websocketami a prepojiť klientskú časť so serverom a následne prenášať základné dáta modelu a síce celé objekty Transition, Place a Arc a až následne po tomto budeme riešiť problémy zo skorších stretnutí.\n"
-          ]
-        },
-      {
-          "day": "15.11.2020",
-          "title": "7# report",
-          "subtitle": "",
-          "text": "Tento týždeň sme založili projekt pre serverovú časť tejto aplikácie. Ide teda o časť ktorá bude spracovávať jednotlivé requesty a starať sa o synchronizáciu modelu medzi užívateľmi. Server bude zrejme bežať na hostingu od Heroku, ktorý ponúka bezplatný chod Java web aplikácií, konkrétne my využívame Java framework Spring Boot. Hosting tiež ponúka bezplatnú databázu, ktorú zrejme využijeme na uchovávanie informácií o jednotlivých miestnostiach do ktorých sa budú užívateľa pripájať aby tak mohli nerušene pracovať na svojej časti projektu. Alternatívou k databáze od Heroku je bezplatná verzia Firebase databázy.\n\nNajprv sme sa teda pre testovacie účely snažili spojazniť jednoduchú chat aplikáciu ktorá na strane servera využíva JavaScript, konkrétne Stomp.js a SockJS. Aplikáciu sa nám podarilo s menšími chybami, ktoré budeme analyzovať a opravovať, spustiť. Ide však len o lokálnu verziu aplikácie a preto nás ešte čaká deploynúť kód na spomínané Heroku a vyskúšať funkčnosť aj v tomto prípade. Následne však plánujeme ešte implementovať aj funkcionalitu vytvárania miestností do tohto demo projektu, čo však v zápätí využijeme aj v hlavnom projekte pre synchronizáciu petriho sietí.\n\nZároveň však riešime aj problémy z minulého týždňa s určovaním častí kódu ktoré majú byť nejakým spôsobom upravené v hlavnom modeli na ktorom pracuje viacero užívateľov naraz.\n",
-          "jobs": [
-            "Tvorba demo projektu pre posielanie správ pomocou websocketov"
-          ],
-          "todo": [
-            "Na ďalší týždeň plánujeme sfunkčniť serverovú časť minimálne z pohľadu jednoduchej chatovacej aplikácie s možnosťou vytvárania miestností a pozývania kolegov do nej. \n"
-          ]
-        },
-      {
-          "day": "8.11.2020",
-          "title": "6# report",
-          "subtitle": "",
-          "text": "Tento týždeň sme opäť veľa nestíhali, ale riešili sme synchronizáciu jednotlivých úkonov pri modelovaní v klientskej časti aplikácie. Vyskytli sa problémy ohľadom toho, podľa čoho pri prijatí XML na serverovej časti, rozlišovať ktorá časť modelu bola aktuálne upravená a ktorá by mala zostať nezmenená. Napr. ak by niekto upravoval action v Transition a niekto iný by upravoval na rovnakom Transition napr. formulár tak ako by sa po prijatí na serveri odlíšilo či sa má zmeniť len action a formuláre nie alebo naopak. Ak by sa posielalo celé XML nedal by sa tento problém veľmi riešiť a preto momentálne ideme cestou posielania častí XML kódu. Zároveň aj ak by sa posielali len časti tak by takýto problém mohol nastať a preto zrejme zavedieme funkcionalitu, že ak niekto upravuje väčší objekt ako napr. Transition tak pre ostatných bude jeho editácia zakázaná až dokým nedokončí svoje veci prvý ktorý začal upravovať. Je to určité obmedzenie tímovej práce na jednom modeli, ale zároveň paralelná práca na iných častiach modelu zostane zachovaná.\n",
-          "jobs": [
-            "Riešenie problému synchronizácie modelu na strane servera"
-          ],
-          "todo": [
-            "Na ďalší týždeň doriešime zistené problémy a začneme s implementáciou serverovej časti aby sme mohli synchronizáciu čo najskôr testovať. \n"
-          ]
-        },
-      {
-          "day": "1.11.2020",
-          "title": "5# report",
-          "subtitle": "",
-          "text": "Tento týždeň sme oveľa nepokročili nakoľko oboznamovanie sa s kódom  je zložitejšie ako sme predpokladali a bude teda teda potrebná podrobnejšia analýza. Navyše sme mali zápočet a náročné zadania z iných predmetov. \n",
-          "jobs": [
-            "Podrobnejšia anayza Angular kódu"
-          ],
-          "todo": [
-            "Na ďalší týždeň sa preto naše plány oproti tomuto týždňu nemenia a teda plánujeme pokračovať v práci s touto Angular časťou a zároveň riešiť základné otázky ohľadom backendu. \n"
-          ]
-        },
-      {
-          "day": "25.10.2020",
-          "title": "4# report",
-          "subtitle": "",
-          "text": "Tento týždeň sme sa individuálne zoznamovali s Angular projektom. Vytvorili sme si GitHub repozitár kde sme uložili zdrojový kód. Všetci sme si nastavili GitHub a každý si aplikáciu spustil aj u seba na PC.\n",
-          "jobs": [
-            "Spojazdnenie klient časti na našich PC",
-            "Analýza Angular kódu aplikácie",
-            "Otázky ohľadom backendu",
-            "Analýza synchronizácie modelu"
-          ],
-          "todo": [
-            "Na ďalší týždeň plánujeme pokračovať v práci s touto Angular časťou a zároveň založiť časť backendu. Rovnako si začneme rozdeľovať konkrétne úlohy, spísané neskôr, aby sme si všetci vyskúšali prácu s frontedom aj v konkrétnej situácii.\n"
-          ]
-        },
-      {
-          "day": "18.10.2020",
-          "title": "3# Report",
-          "subtitle": "",
-          "text": "Tento týždeň sme si s vedúcim tímu prešli zdrojový kód Angular aplikácie cez video hovor. Následne nám bol poskytnutý aby sme si ho mohli pozrieť všetci aj individuálne a potom si spoločne prejsť prípadné nejasnosti. \n\nNa ďalší týždeň po analyzovaní kódu budeme kontaktovať vedúceho tímu s prípadnými otázkami a následnom rozdelení práce kto bude na čom pracovať. Zároveň budeme hlbšie riešiť aj otázky ohľadom serverovej časti spomenuté v reporte číslo 2.\n",
-          "jobs": [
-            "Analýza produkčnej verzie modelera",
-            "Analýza Angular kódu aplikácie",
-            "Štúdium Spring Boot frameworku",
-            "Analýza synchronizácie modelu"
-          ],
-          "todo": [
-            "Budúci týždeň budeme riešiť rozdelenie úloh po prezretí Angular zdrojového kódu, prípadne iné otázky v prípade nejasností."
-          ]
-        },
-        {
-            "day": "11.10.2020",
-            "title": "2# Report",
-            "subtitle": "",
-            "text": "Tento týždeň sme plánovali analýzu súčasného Angular kódu v ktorom je modeler naprogramovaný. Nanešťastie sme však po konzultácii s vedúcim projektu museli prevzatie kódu odložiť na ďalší týždeň a teda aj jeho analýzu sme presunuli o týždeň neskôr.\n\nMedzi tým sme však riešili otázky ohľadom serverovej časti tohto projektu. Keďže ešte nemáme Angular kód tak sme si pozerali aspoň produkčné riešenie priamo na stránke http://builder.interes.group/modeler kde sme pozerali ako vyzerajú jednotlivé objekty. \n\nNa základe týchto nie úplne presných dát sme spolu konzultovali ako bude prebiehať samotná synchronizácia vytváraného modelu napr. či budeme vždy posielať všetky dáta konkrétneho užívateľa, a následne porovnali zmeny, alebo len tie aktuálne ktoré vykonáva. Rovnako sme riešili nutnosť vytvorenia miestností aby si každá skupina mohla vytvoriť svoju vlastnú a taktiež ukladanie aktuálneho stavu modelu aby keď sa niekto pripojí do kolaborácie neskôr tak videl aktuálny stav modelu.\n",
-            "jobs": [
-                "Analýza produkčnej verzie modelera",
-                "Štúdium Spring Boot frameworku",
-                "Analýza synchronizácie modelu"
-            ],
-            "todo": [
-                "Budúci týždeň už by sme mali dostať aktuálny kód vďaka čomu si budeme môcť diskutované problémy upresniť a pokračovať v práci či už na serverovej ale aj na klientskej časti aplikácie."
-            ]
-        },
-        {
-            "day": "2.10.2020",
-            "title": "1# Report",
-            "text": "Tento týždeň sme si s vedúcim projektu dohodli úvodnú konzultáciu kde sme sa dozvedeli viaceré informácie ohľadom aktuálneho stavu projektu. Oboznámili sme sa s frameworkom Angular keďže frontend je postavený práve na ňom a rovnako s frameworkom Spring Boot, ktorý, po odporučení vedúcim projektu, využijeme na tvorbu serverovej časti.\nZaložili sme GitHub repozitár, zdieľaný priečinok pre budúce materiály a aktualizovali tímovú stránku.\n",
-            "jobs": [
-                "Štúdium Angular frameworku",
-                "Štúdium Spring Boot frameworku"
-            ],
-            "todo": [
-                "Budúci týždeň po dohode s vedúcim projektu dostaneme aktuálny kód s ktorým budeme môcť začať pracovať."
-            ]
-        }
-    ]
+    {
+      "day": "29.11.2020",
+      "title": "9# report",
+      "subtitle": "",
+      "text": "Nakoľko základná časť serverovej časti je hotová tak sme sa tento týždeň venovali viacej Angular časti aplikácie. Analyzovali sme jednotlivé časti kódu na základe čoho sme si pripravili otázky pre vedúceho tímu s ktorým sme sa dohodli na spoločnom stretnutí na ďalší týždeň. Otázky riešia najmä rozdelenie ap.ikácie na menšie časti a následnú synchronizáciu týchto menších častí aplikácie a spôsob akým ju docieliť. Napr. či synchronizovať naraz len objekt Place alebo ho rozdeliť aj na menšie časti a synchronizovať naraz aj časti pre správu akcií a podobne. Časť tímu ktorá bola menej zameraná na serverovú časť začala zakomponovávať websocket knižnicu už aj do klientskej časti aplikácie\n",
+      "jobs": [
+        "Začiatok implementácie Angular knižnice pre websocket"
+      ],
+      "todo": [
+        "Ako bolo spomenuté tieto otázky budeme riešiť na spoločnom stretnutí s vedúcim práce na ďalší týždeň v piatok.\n"
+      ]
+    },
+    {
+      "day": "22.11.2020",
+      "title": "8# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme mali náročný zápočet z Logiky a odovzdať zadanie z predmetu SUNS, takže progres na tomto projekte sa výrazne nezmenil. Podarilo sa nám však implementovať funkcionalitu komunikovania pomocou web socketov v tzv. miestnostiach vo vedľajšom demo projekte. Toto plánujeme využiť aj v ďalších častiach hlavného projektu nakoľko je nevyhnutné aby ak bude nejaký tím pracovať spoločne na jednom projekte tak aby boli oddelený od iných užívateľov ktorí budú tiež pracovať oddelene v inej miestnosti na svojich projektoch.\n",
+      "jobs": [
+        "Implementácia miestností v demo projekte"
+      ],
+      "todo": [
+        "V ďalšej časti tohto projektu preto preto plánujeme implementovať Angular knižnice pre prácu s websocketami a prepojiť klientskú časť so serverom a následne prenášať základné dáta modelu a síce celé objekty Transition, Place a Arc a až následne po tomto budeme riešiť problémy zo skorších stretnutí.\n"
+      ]
+    },
+    {
+      "day": "15.11.2020",
+      "title": "7# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme založili projekt pre serverovú časť tejto aplikácie. Ide teda o časť ktorá bude spracovávať jednotlivé requesty a starať sa o synchronizáciu modelu medzi užívateľmi. Server bude zrejme bežať na hostingu od Heroku, ktorý ponúka bezplatný chod Java web aplikácií, konkrétne my využívame Java framework Spring Boot. Hosting tiež ponúka bezplatnú databázu, ktorú zrejme využijeme na uchovávanie informácií o jednotlivých miestnostiach do ktorých sa budú užívateľa pripájať aby tak mohli nerušene pracovať na svojej časti projektu. Alternatívou k databáze od Heroku je bezplatná verzia Firebase databázy.\n\nNajprv sme sa teda pre testovacie účely snažili spojazniť jednoduchú chat aplikáciu ktorá na strane servera využíva JavaScript, konkrétne Stomp.js a SockJS. Aplikáciu sa nám podarilo s menšími chybami, ktoré budeme analyzovať a opravovať, spustiť. Ide však len o lokálnu verziu aplikácie a preto nás ešte čaká deploynúť kód na spomínané Heroku a vyskúšať funkčnosť aj v tomto prípade. Následne však plánujeme ešte implementovať aj funkcionalitu vytvárania miestností do tohto demo projektu, čo však v zápätí využijeme aj v hlavnom projekte pre synchronizáciu petriho sietí.\n\nZároveň však riešime aj problémy z minulého týždňa s určovaním častí kódu ktoré majú byť nejakým spôsobom upravené v hlavnom modeli na ktorom pracuje viacero užívateľov naraz.\n",
+      "jobs": [
+        "Tvorba demo projektu pre posielanie správ pomocou websocketov"
+      ],
+      "todo": [
+        "Na ďalší týždeň plánujeme sfunkčniť serverovú časť minimálne z pohľadu jednoduchej chatovacej aplikácie s možnosťou vytvárania miestností a pozývania kolegov do nej. \n"
+      ]
+    },
+    {
+      "day": "8.11.2020",
+      "title": "6# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme opäť veľa nestíhali, ale riešili sme synchronizáciu jednotlivých úkonov pri modelovaní v klientskej časti aplikácie. Vyskytli sa problémy ohľadom toho, podľa čoho pri prijatí XML na serverovej časti, rozlišovať ktorá časť modelu bola aktuálne upravená a ktorá by mala zostať nezmenená. Napr. ak by niekto upravoval action v Transition a niekto iný by upravoval na rovnakom Transition napr. formulár tak ako by sa po prijatí na serveri odlíšilo či sa má zmeniť len action a formuláre nie alebo naopak. Ak by sa posielalo celé XML nedal by sa tento problém veľmi riešiť a preto momentálne ideme cestou posielania častí XML kódu. Zároveň aj ak by sa posielali len časti tak by takýto problém mohol nastať a preto zrejme zavedieme funkcionalitu, že ak niekto upravuje väčší objekt ako napr. Transition tak pre ostatných bude jeho editácia zakázaná až dokým nedokončí svoje veci prvý ktorý začal upravovať. Je to určité obmedzenie tímovej práce na jednom modeli, ale zároveň paralelná práca na iných častiach modelu zostane zachovaná.\n",
+      "jobs": [
+        "Riešenie problému synchronizácie modelu na strane servera"
+      ],
+      "todo": [
+        "Na ďalší týždeň doriešime zistené problémy a začneme s implementáciou serverovej časti aby sme mohli synchronizáciu čo najskôr testovať. \n"
+      ]
+    },
+    {
+      "day": "1.11.2020",
+      "title": "5# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme oveľa nepokročili nakoľko oboznamovanie sa s kódom  je zložitejšie ako sme predpokladali a bude teda teda potrebná podrobnejšia analýza. Navyše sme mali zápočet a náročné zadania z iných predmetov. \n",
+      "jobs": [
+        "Podrobnejšia anayza Angular kódu"
+      ],
+      "todo": [
+        "Na ďalší týždeň sa preto naše plány oproti tomuto týždňu nemenia a teda plánujeme pokračovať v práci s touto Angular časťou a zároveň riešiť základné otázky ohľadom backendu. \n"
+      ]
+    },
+    {
+      "day": "25.10.2020",
+      "title": "4# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme sa individuálne zoznamovali s Angular projektom. Vytvorili sme si GitHub repozitár kde sme uložili zdrojový kód. Všetci sme si nastavili GitHub a každý si aplikáciu spustil aj u seba na PC.\n",
+      "jobs": [
+        "Spojazdnenie klient časti na našich PC",
+        "Analýza Angular kódu aplikácie",
+        "Otázky ohľadom backendu",
+        "Analýza synchronizácie modelu"
+      ],
+      "todo": [
+        "Na ďalší týždeň plánujeme pokračovať v práci s touto Angular časťou a zároveň založiť časť backendu. Rovnako si začneme rozdeľovať konkrétne úlohy, spísané neskôr, aby sme si všetci vyskúšali prácu s frontedom aj v konkrétnej situácii.\n"
+      ]
+    },
+    {
+      "day": "18.10.2020",
+      "title": "3# Report",
+      "subtitle": "",
+      "text": "Tento týždeň sme si s vedúcim tímu prešli zdrojový kód Angular aplikácie cez video hovor. Následne nám bol poskytnutý aby sme si ho mohli pozrieť všetci aj individuálne a potom si spoločne prejsť prípadné nejasnosti. \n\nNa ďalší týždeň po analyzovaní kódu budeme kontaktovať vedúceho tímu s prípadnými otázkami a následnom rozdelení práce kto bude na čom pracovať. Zároveň budeme hlbšie riešiť aj otázky ohľadom serverovej časti spomenuté v reporte číslo 2.\n",
+      "jobs": [
+        "Analýza produkčnej verzie modelera",
+        "Analýza Angular kódu aplikácie",
+        "Štúdium Spring Boot frameworku",
+        "Analýza synchronizácie modelu"
+      ],
+      "todo": [
+        "Budúci týždeň budeme riešiť rozdelenie úloh po prezretí Angular zdrojového kódu, prípadne iné otázky v prípade nejasností."
+      ]
+    },
+    {
+      "day": "11.10.2020",
+      "title": "2# Report",
+      "subtitle": "",
+      "text": "Tento týždeň sme plánovali analýzu súčasného Angular kódu v ktorom je modeler naprogramovaný. Nanešťastie sme však po konzultácii s vedúcim projektu museli prevzatie kódu odložiť na ďalší týždeň a teda aj jeho analýzu sme presunuli o týždeň neskôr.\n\nMedzi tým sme však riešili otázky ohľadom serverovej časti tohto projektu. Keďže ešte nemáme Angular kód tak sme si pozerali aspoň produkčné riešenie priamo na stránke http://builder.interes.group/modeler kde sme pozerali ako vyzerajú jednotlivé objekty. \n\nNa základe týchto nie úplne presných dát sme spolu konzultovali ako bude prebiehať samotná synchronizácia vytváraného modelu napr. či budeme vždy posielať všetky dáta konkrétneho užívateľa, a následne porovnali zmeny, alebo len tie aktuálne ktoré vykonáva. Rovnako sme riešili nutnosť vytvorenia miestností aby si každá skupina mohla vytvoriť svoju vlastnú a taktiež ukladanie aktuálneho stavu modelu aby keď sa niekto pripojí do kolaborácie neskôr tak videl aktuálny stav modelu.\n",
+      "jobs": [
+        "Analýza produkčnej verzie modelera",
+        "Štúdium Spring Boot frameworku",
+        "Analýza synchronizácie modelu"
+      ],
+      "todo": [
+        "Budúci týždeň už by sme mali dostať aktuálny kód vďaka čomu si budeme môcť diskutované problémy upresniť a pokračovať v práci či už na serverovej ale aj na klientskej časti aplikácie."
+      ]
+    },
+    {
+      "day": "2.10.2020",
+      "title": "1# Report",
+      "text": "Tento týždeň sme si s vedúcim projektu dohodli úvodnú konzultáciu kde sme sa dozvedeli viaceré informácie ohľadom aktuálneho stavu projektu. Oboznámili sme sa s frameworkom Angular keďže frontend je postavený práve na ňom a rovnako s frameworkom Spring Boot, ktorý, po odporučení vedúcim projektu, využijeme na tvorbu serverovej časti.\nZaložili sme GitHub repozitár, zdieľaný priečinok pre budúce materiály a aktualizovali tímovú stránku.\n",
+      "jobs": [
+        "Štúdium Angular frameworku",
+        "Štúdium Spring Boot frameworku"
+      ],
+      "todo": [
+        "Budúci týždeň po dohode s vedúcim projektu dostaneme aktuálny kód s ktorým budeme môcť začať pracovať."
+      ]
+    }
+  ]
 }
