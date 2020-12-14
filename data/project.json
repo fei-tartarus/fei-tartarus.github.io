@@ -7,6 +7,18 @@
   },
   "reports": [
     {
+      "day": "13.12.2020",
+      "title": "11# report",
+      "subtitle": "",
+      "text": "Nakoľko sme dostali na ďalší týždeň dva predtermíny z predmetov rozhodli sme sa tento týždeň spomaliť prácu na projekte a venovať sa týmto dvom predmetom. Individuálne sa však každý aj naďalej venujeme programovaniu v Angulare aby sme následne boli schopní tieto poznatky naplno využiť.\nPo dohode s vedúcim tímu budeme na projekte pracovať aj medzi sviatkami a rovnako aj začiatkom nového roka. Všetky dôležité poznatky a otázky budeme aj naďalej konzultovať a spisovať tiež do zápisnice.\n",
+      "jobs": [
+        "Práca s Angularom"
+      ],
+      "todo": [
+        "Po predtermínoch práca naplno na projekte.\n"
+      ]
+    },
+    {
       "day": "06.12.2020",
       "title": "10# report",
       "subtitle": "",
