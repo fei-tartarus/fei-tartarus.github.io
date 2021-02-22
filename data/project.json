@@ -7,19 +7,6 @@
   },
   "reports": [
     {
-      "day": "22.2.2020",
-      "title": "12# report",
-      "subtitle": "",
-      "text": "Tento týždeň po dôkladnom pretestovaní spolupráci backend a frontend projektov sme našli niekoľko nezrovnalosti. Po dlhšom hľadaní a lokalizácii chyb sme prišli nato že problém spočíva v používaní na backende a frontende rôznych knižníc pre  sockety (na frontende sme používali Socket.io a na backende SockJS a Stomp knižnice). Rozhodli sme sa používať aj v Angulari knižnice SockJS a Stomp pretože knižnica Socket.io nie je úplne najlepšie integrovateľná s Javou. Zvyšok týždňa sme prispôsobovali Angular projekt novým knižniciam.\n",
-      "jobs": [
-        "Hľadanie chýb pri synchronizácií Angular a Spring Boot aplikácií.",
-        "Prispôsobenie frontend projektu novým knižniciam.\n"
-      ],
-      "todo": [
-        "Na ďalší týždeň mame v pláne začať pracovať nad implementáciou synchronizácie Form Buildera.\n"
-      ]
-    },
-    {
       "day": "13.12.2020",
       "title": "11# report",
       "subtitle": "",
