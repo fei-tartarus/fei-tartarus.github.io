@@ -6,14 +6,26 @@
     "photo": "/assets/img/kovacik.jpg"
   },
   "reports": [
+     {
+      "day": "1.03.2021",
+      "title": "13# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme celým tímom pracovali nad synchronizáciou pre Form Builder. Teoretický to nevyzeralo také zložite ako sa to objavilo v praxi. Pri konzultovaní z vedúcim projektu sme prebrali možnosti, ktorými sa dá zrealizovať daná synchronizácia. Po konzultácii sme sa vrátili k pokusom zistiť nakoľko je možne spraviť synchronizáciu tak, aby viac používateľov vedelo editovať 1 formu v Form Builderi súčasne. Zároveň sme sa pokúsili zistiť aj realizovateľnosť editovania viac formov súčasne.\n",
+      "jobs": [
+        "Pokus implementovať synchronizáciu do Form Buildera rôznymi spôsobmi"
+      ],
+      "todo": [
+        "Na ďalší týždeň mame v pláne pokračovať v implementácií, ktorá na konci privedie nás k hotovej synchronizácií Form Buildera alebo poukáže nám na nerealizovateľný tejto funkcionality.\n"
+      ]
+    },
     {
-      "day": "22.02.2020",
+      "day": "22.02.2021",
       "title": "12# report",
       "subtitle": "",
       "text": "Tento týždeň po dôkladnom pretestovaní spolupráci backend a frontend projektov sme našli niekoľko nezrovnalosti. Po dlhšom hľadaní a lokalizácii chyb sme prišli nato že problém spočíva v používaní na backende a frontende rôznych knižníc pre  sockety (na frontende sme používali Socket.io a na backende SockJS a Stomp knižnice). Rozhodli sme sa používať aj v Angulari knižnice SockJS a Stomp pretože knižnica Socket.io nie je úplne najlepšie integrovateľná s Javou. Zvyšok týždňa sme prispôsobovali Angular projekt novým knižniciam.\n",
       "jobs": [
-        "Hľadanie chýb pri synchronizácií Angular a Spring Boot aplikácií.",
-        "Prispôsobenie frontend projektu novým knižniciam."
+        "Hľadanie chýb pri synchronizácií Angular a Spring Boot aplikácií",
+        "Prispôsobenie frontend projektu novým knižniciam"
       ],
       "todo": [
         "Na ďalší týždeň mame v pláne začať pracovať nad implementáciou synchronizácie Form Buildera.\n"
