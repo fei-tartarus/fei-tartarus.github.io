@@ -7,6 +7,18 @@
   },
   "reports": [
      {
+      "day": "8.03.2021",
+      "title": "14# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme pokračovali v pokusoch implementácií From Buildera. Bohužiaľ táto funkcionalita vyžaduje väčšie zmeny v pôvodnej verzii projektu, preto úloha napreduje veľmi pomaly. Čiže hlavne úlohy tohto týždenného šprintu sa presúvajú na ďalší týždeň.\n",
+      "jobs": [
+        "Pokračovanie v pokuse implementovať synchronizáciu do Form Buildera rôznymi spôsobmi"
+      ],
+      "todo": [
+        "Na ďalší týždeň mame v pláne pokračovať v implementácií, ktorá na konci privedie nás k hotovej synchronizácií Form Buildera alebo poukáže nám na nerealizovateľný tejto funkcionality.\n"
+      ]
+    },
+     {
       "day": "1.03.2021",
       "title": "13# report",
       "subtitle": "",
