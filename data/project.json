@@ -6,6 +6,18 @@
     "photo": "/assets/img/kovacik.jpg"
   },
   "reports": [
+    {
+      "day": "15.03.2021",
+      "title": "15# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme zvolili spôsob a začali pracovať nad implementovaním synchronizácie pre  From Builder. Pre túto funkcionalitu sme identifikovali posledné volania funkcií pri zmenách atribútov elementov ako zmena veľkosti, či presun elementu, dáta jednotlivých položiek a začali implementovať jednotlivé časti tejto synchronizácie. Ďalej po konzultácií s vedúcim projektu sme sa dohodli na termíne prezentácií tejto funkcionality o dva týždne.\n",
+      "jobs": [
+        "Implementovanie synchronizácií Form Buildera."
+      ],
+      "todo": [
+        "Na ďalší týždeň mame v pláne pracovať nad implementáciou synchronizácii From Buildera a lokálne otestovať ju.\n"
+      ]
+    },
      {
       "day": "8.03.2021",
       "title": "14# report",
