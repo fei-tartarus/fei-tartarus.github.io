@@ -10,7 +10,7 @@
       "day": "22.03.2021",
       "title": "16# report",
       "subtitle": "",
-      "text": "Tento týždeň sme kvôli odovzdávaniu zadaní pre iné predmety (ADS, PS2, PPDS) nestihli dokončiť implementáciu synchronizácie pre From Builder. Preto naše ciele na tento týždeň presúvame na budúci týždeň.\n"
+      "text": "Tento týždeň sme kvôli odovzdávaniu zadaní pre iné predmety (ADS, PS2, PPDS) nestihli dokončiť implementáciu synchronizácie pre From Builder. Preto naše ciele na tento týždeň presúvame na budúci týždeň.\n",
       "jobs": [
        "Implementovanie synchronizácií Form Buildera."
       ],
