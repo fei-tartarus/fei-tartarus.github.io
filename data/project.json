@@ -11,7 +11,8 @@
       "title": "16# report",
       "subtitle": "",
       "text": "Tento týždeň sme kvôli odovzdávaniu zadaní pre iné predmety (ADS, PS2, PPDS) nestihli dokončiť implementáciu synchronizácie pre From Builder. Preto naše ciele na tento týždeň presúvame na budúci týždeň.\n"
-        "Implementovanie synchronizácií Form Buildera."
+      "jobs": [
+       "Implementovanie synchronizácií Form Buildera."
       ],
       "todo": [
         "Na ďalší týždeň mame v pláne pracovať nad implementáciou synchronizácii From Buildera a lokálne otestovať ju.\n"
