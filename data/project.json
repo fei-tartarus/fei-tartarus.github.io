@@ -7,6 +7,20 @@
   },
   "reports": [
      {
+      "day": "29.03.2021",
+      "title": "17# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme vyriešili bug s generovaním ID, prerobili sme implementáciu pripojenia na backend socket server, pretože predchádzajúce prepojenie neumožňovalo synchronizovať jeden element z rôznych miest (a práve toto potrebujeme). Aktuálne pracuje synchronizácia pre vytvorenie elementu vo Form Builderi.\n",
+      "jobs": [
+       "Implementovanie synchronizácií Form Buildera.",
+       "Oprava bugov.",
+       "Zmena implementácií pripojenia na backend server."
+      ],
+      "todo": [
+        "Na ďalší týždeň mame v pláne pokračovať nad implementáciou synchronizácií ostatných funkcií From Buildera a na backende prispôsobiť Room pre Form Builder.\n"
+      ]
+    },
+    {
       "day": "22.03.2021",
       "title": "16# report",
       "subtitle": "",
