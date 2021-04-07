@@ -7,6 +7,18 @@
   },
   "reports": [
      {
+      "day": "5.04.2021",
+      "title": "18# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme začali prepájať backend s novými zmenami na frontende v súvislosti so synchronizáciou Form Buildera. Na tento účel používame dva rozlične websockety aby vedeli počúvať každý na správnu zmenu, ktorá príde z backendu, čo už tam je.\n",
+      "jobs": [
+       "Prepajanie frontendu a backendu pri synchronizácí Form Buildera."
+      ],
+      "todo": [
+        "Na ďalší týždeň mame v pláne pokračovať nad prepájaním frontendu a backendu a na backende zrealizovať mapovanie dopytov z Form Buildera a synchronizovať dane miestnosti.\n"
+      ]
+    },
+    {
       "day": "29.03.2021",
       "title": "17# report",
       "subtitle": "",
