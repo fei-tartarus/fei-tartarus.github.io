@@ -7,6 +7,19 @@
   },
   "reports": [
      {
+      "day": "11.04.2021",
+      "title": "19# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme dokončili prepájať backend s novými zmenami na frontende v súvislosti so synchronizáciou Form Buildera. Po prepájaní vyskytla sa chyba pri ukladaní formulára pri stlačení tlačidla save v Angulari.\n",
+      "jobs": [
+       "Opravovanie chýb a bugov v projekte.",
+       "Testovanie projektu."
+      ],
+      "todo": [
+        "Na ďalší týždeň mame v pláne opraviť túto chybu a otestovať funkcionalitu Form Buildera a začať pripravovať demo aplikácie pre nášho vedúceho projektu.\n"
+      ]
+    },
+     {
       "day": "5.04.2021",
       "title": "18# report",
       "subtitle": "",
