@@ -6,8 +6,21 @@
     "photo": "/assets/img/kovacik.jpg"
   },
   "reports": [
+    {
+      "day": "19.04.2021",
+      "title": "20# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme dokončili odstraňovať bugy a chyby zo synchronizácie  Form Buildera  ako na backendovej časti tak aj na frontendovej. Po lokálnom testovaní nám ostáva už len dorobiť synchronizáciu pre ukladanie formov z Form Buildera do  modelu, ktorý sa rozposiela ostatným účastníkom v zdieľanej izbe.\n",
+      "jobs": [
+       "Opravovanie chýb a bugov v projekte.",
+       "Testovanie projektu."
+      ],
+      "todo": [
+        "Na ďalší týždeň mame v pláne implementovať túto synchronizáciu pre ukladanie formov z Form Buildera do  modelu a začať pripravovať demo aplikácie pre nášho vedúceho projektu.\n"
+      ]
+    },
      {
-      "day": "11.04.2021",
+      "day": "12.04.2021",
       "title": "19# report",
       "subtitle": "",
       "text": "Tento týždeň sme dokončili prepájať backend s novými zmenami na frontende v súvislosti so synchronizáciou Form Buildera. Po prepájaní vyskytla sa chyba pri ukladaní formulára pri stlačení tlačidla save v Angulari.\n",
