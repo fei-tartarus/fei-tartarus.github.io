@@ -7,6 +7,20 @@
   },
   "reports": [
     {
+      "day": "26.04.2021",
+      "title": "21# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme sa dostali do finálnej fázy práci nad projektom. Začali sme pracovať nad dokumentáciou, výsledne testovať aplikáciu a v prípade odhalenia nejakej chyby hneď pracujeme nad opravou.\n",
+      "jobs": [
+       "Opravovanie posledných chýb.",
+       "Testovanie projektu.",
+       "Začiatok písania dokumentacie."
+      ],
+      "todo": [
+        "Na ďalší týždeň mame v pláne pokračovať testovaním a písaním dokumentácie.\n"
+      ]
+    },
+    {
       "day": "19.04.2021",
       "title": "20# report",
       "subtitle": "",
