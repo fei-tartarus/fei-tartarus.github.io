@@ -7,6 +7,18 @@
   },
   "reports": [
     {
+      "day": "10.05.2021",
+      "title": "23# report",
+      "subtitle": "",
+      "text": "Tento týždeň sme pokračovali v písaní dokumentácií. V pláne máme aj začať natáčať video o funkcionalite nášho projektu.\n",
+      "jobs": [
+       "Písanie dokumentacie."
+      ],
+      "todo": [
+        "Na ďalší týždeň budeme pokračovať písaním dokumentácie.\n"
+      ]
+    },
+    {
       "day": "3.05.2021",
       "title": "22# report",
       "subtitle": "",
